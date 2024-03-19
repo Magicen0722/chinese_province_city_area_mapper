@@ -41,7 +41,7 @@ setup(
     name='cpca',
     version=cpca.__version__,
     description='Chinese Province, City and Area Recognition Utilities',
-    long_description=README.read_text(),
+    long_description=README.read_text(encoding='utf-8'),
     author='DQinYuan',
     author_email='sa517067@mail.ustc.edu.cn',
     url='https://github.com/DQinYuan/chinese_province_city_area_mapper',
